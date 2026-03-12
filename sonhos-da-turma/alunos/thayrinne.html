@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Thayrinne</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body style="background:linear-gradient(180deg,#ffe4e6,#dc2626); min-height:100vh;">
+    
+<h1>Thayrinne ⚕️🧖🏼‍♀️</h1>
+
+<img src="../img/thayrinne.jpeg" style="width:100%; max-width:400px; border-radius:12px;">
+
+<p>Música favorita 🎵</p>
+
+<div class="player">
+
+<button id="playBtn" onclick="togglePlay()">▶</button>
+
+<div class="progress-container" onclick="setProgress(event)">
+<div class="progress" id="progress"></div>
+</div>
+
+<audio id="player">
+<source src="../musicas/thayrinne.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+
+<br><br>
+
+<a href="../index.html">⬅ Voltar</a>
+
+<script src="../script.js"></script>
+
+</body>
+</html>
